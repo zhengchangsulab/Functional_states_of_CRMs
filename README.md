@@ -7,7 +7,7 @@
 ### The model trained in K562
 - LogesticRegression+CA-H3K27ac-H3K4me1-H3K4me3.0.5.signal.whole_model.jobib
 ### The training dataset in K562
--
+- K562:Erythroblast:Bone+Marrow.data.tf.info.signal.0.5.clean.csv
 
 ## predicted active CRMs in human and mouse.
 - human_active_crms.tar.gz
