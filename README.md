@@ -2,12 +2,14 @@
 ## The code for training and predicting active CRMs in the whole genome in K562
 ### The code for training, evaluation, testing.
 - Train_evaluate_model_island_features_importance_signal.py
-- Example: Train_evaluate_model_island_features_importance_signal.py K562:Erythroblast:Bone+Marrow 0
+- Example: Train_evaluate_model_island_features_importance_signal.py K562:Erythroblast:Bone+Marrow classifer_indicator (for example 0 for "LogesticRegression")
 - Classifer indicators: 0: "LogesticRegression",1:"Linear SVM",2:"Decision Tree", 3:"Random Forest", 4:"Neural Net", 5:"AdaBoost", 6:"Naive Bayes"
 
 ### The code for predicting active CRMs in the whole genome.
 - Train_evaluate_model_island_features_importance_signal_predict_whole.py
-- Example: python Train_evaluate_model_island_features_importance_signal_predict_whole.py K562:Erythroblast:Bone+Marrow classifer_indicator
+- Example: python Train_evaluate_model_island_features_importance_signal_predict_whole.py K562:Erythroblast:Bone+Marrow classifer_indicator (for example 0 for "LogesticRegression")
+- Classifer indicators: 0: "LogesticRegression",1:"Linear SVM",2:"Decision Tree", 3:"Random Forest", 4:"Neural Net", 5:"AdaBoost", 6:"Naive Bayes"
+
 
 
 ### The model trained in K562
